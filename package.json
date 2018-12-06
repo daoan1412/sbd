@@ -4,8 +4,7 @@
   "description": "Split text into sentences with Sentence Boundary Detection (SBD).",
   "main": "lib/tokenizer.js",
   "scripts": {
-    "test": "mocha -R spec",
-    "benchmark": "./node_modules/.bin/matcha"
+    "test": "mocha -R spec"
   },
   "homepage": "https://github.com/daoan1412/sbd",
   "repository": {
@@ -24,6 +23,5 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "mocha": "5.2.0",
-    "matcha": "0.7.0"
   }
 }
